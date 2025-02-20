@@ -44,7 +44,7 @@ function showscreen(r, i) {
 
 let currentsong = new Audio()
 const playmusic = (track) => {
-    currentsong.src = "/spotifyclone/songs/" + track
+    currentsong.src = "/Spotify%20Clone/songs/" + track
     currentsong.play();
     pauseplaybutton.src = "playbutt.svg"
 }
